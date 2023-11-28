@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar and Carousel Example</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand mr-auto" routerLink="/Qui" routerLinkActive="active">
+      <img src="../../assets/logo-white.png" width="105" height="80" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/Qui" routerLinkActive="active">Qui Sommes Nous ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/offres" routerLinkActive="active">nos offres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/secteurs">Secteurs d'activité</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/blog">Blog</a>
+        </li>
+      </ul>
+    </div>
+    <button class="s-identifier" routerLink="/signin" routerLinkActive="active" >S'identifier</button>
+</nav>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* Center the card content */
+.card-login {
+    max-width: 1000px;
+    
+    padding: 50px;
+    text-align: center;
+    background: hsla(0, 0%, 100%, 0.8);
+    backdrop-filter: blur(30px);
+  }
+  
+  /* Reduce padding and margin for form elements */
+  .form-outline input,
+  .form-outline select,
+  .form-outline label,
+  .form-check-label,
+  .btn {
+    padding: 0.5rem;
+    margin: 0.2rem;
+  }
+  
+  /* Reduce font size for form elements */
+  .form-outline input,
+  .form-outline select,
+  .form-check-label {
+    font-size: 14px;
+  }
+  
+  /* Adjust label and input size */
+  .form-outline label {
+    font-size: 12px;
+  }
+  .form-outline input {
+    height: 30px;
+  }
+  img{
+    filter: blur(4px);
+
+}

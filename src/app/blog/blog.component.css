@@ -1,0 +1,27 @@
+.section {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    justify-content: center;
+    height: 20%;
+    width: 1200px;
+    
+    justify-content: center; /* Center horizontally */
+    
+    margin-top: 20px; 
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007abe;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.mb-4 {
+    margin-bottom: 20px; /* Add your desired spacing value here */
+  }

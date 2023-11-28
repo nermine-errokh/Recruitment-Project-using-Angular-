@@ -1,0 +1,26 @@
+.navbar-custom {
+    background-color: #191970;
+  }
+
+  .navbar-custom .navbar-nav {
+    margin: auto;
+  }
+
+  .navbar-custom .nav-link {
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-custom .s-identifier {
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007abe;
+    cursor: pointer;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  

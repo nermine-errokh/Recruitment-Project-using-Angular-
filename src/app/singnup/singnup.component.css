@@ -1,0 +1,21 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    h3{
+        text-align: center;
+    font: normal normal bold 18px/28px "Montserrat";
+    letter-spacing: 0px;
+    color: #007abe;
+    text-transform: uppercase;
+    }
+    img{
+        filter: blur(4px);
+    
+    }
+   

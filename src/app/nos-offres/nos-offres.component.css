@@ -1,0 +1,33 @@
+.row img{
+    width: 262.4px;
+    height: 262.4px;
+} 
+ p {
+    
+    text-align: center;
+    font: normal normal bold 18px/28px "Montserrat";
+    letter-spacing: 0px;
+    color: #007abe;
+    text-transform: uppercase;
+}
+.row1 {
+    background-color: rgb(222, 222, 212);
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+    padding: 10px 0; /* Add some padding for better spacing */
+    margin-top: 20px;
+  }
+
+  .row1 input,
+  .row1 label,
+  .row1 select {
+    margin-right: 10px; /* Add some space between elements */
+  }
+
+  .Rechercher {
+    background-color: #007abe;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+  }

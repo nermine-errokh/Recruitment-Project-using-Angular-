@@ -1,0 +1,21 @@
+.carousel-item active{
+    margin: 3%;
+    position: relative;
+}
+
+/*This CSS code is defining the styles for a container that holds text*/
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 25rem;
+    top: 25rem;
+    
+    padding: 0 1rem;
+}
+img{
+    filter: blur(4px);
+
+}
+pre{
+    color: white;
+}

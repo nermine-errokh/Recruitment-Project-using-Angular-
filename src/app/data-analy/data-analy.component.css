@@ -1,0 +1,40 @@
+
+.container {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 70px;
+  }
+
+  table, th, td {
+    
+    padding: 18px;
+  }
+
+  h2 {
+    color: #007abe;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+
+  button {
+    margin-top: 20px;
+    background-color: #007abe;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+  }
+  th{
+      color:#007abe;
+  }
